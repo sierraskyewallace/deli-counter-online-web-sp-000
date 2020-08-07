@@ -14,6 +14,7 @@ def line(katz_deli)
 
 
 def take_a_number(katz_deli, name)
+  katz_deli = []
   katz_deli.push(name)
   return ("Welcome, #{name}. You are number #{katz_deli.size} in line.")
 end
